@@ -7,7 +7,8 @@
 <div class="pb-[365px] md:flex md:flex-col md:items-center md:w-[100vw]">
 
     <!-- Hero section-->
-    <div class="bg-[#E7816B] relative h-[843px] overflow-y-hidden overflow-x-hidden md:w-[87%] md:rounded-lg lg:h-[640px]">
+    <div class="bg-[#E7816B] bg-no-repeat bg-right relative h-[843px] overflow-y-hidden overflow-x-hidden md:w-[87%] md:rounded-lg lg:h-[640px]"
+         style="background-image: url('assets/shared/desktop/bg-pattern-small-circle.svg'); background-size: 640px;">
         <div class="absolute flex flex-col items-center pt-[87px] left-0 right-0 top-0 bottom-0 gap-[33px] px-[33px] md:px-[110px] lg:px-[0px] lg:gap-[50px] lg:items-start lg:w-[540px] lg:ml-[96px]" style="z-index: 4;">
             <p class="text-center text-white text-[32px] lg:text-left lg:text-[48px]">
                 Award-winning custom designs and digital branding solutions
@@ -22,19 +23,23 @@
         <img src="~/assets/home/desktop/image-hero-phone.png" class="absolute left-1/2 transform -translate-x-1/2 top-[513px] md:top-[300px] lg:translate-x-0 lg:translate-y-0 lg:left-auto lg:right-[-96px] lg:top-[-9%]" />
     </div>
 
+    <!--Top Leaf-->
+    <img class="hidden absolute top-[417px] z-[-2] left-0 max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
+
     <!--Category Section-->
     <div class="grid grid-rows-3 gap-4 w-[87%] mx-auto mt-[113px] md:grid-rows-md-3 lg:grid-cols-2 lg:grid-rows-2 lg:h-[640px]">
         @for (int i = 0; i < Model.Categories.Count; i++)
         {
-            
-            if(i == 0)
+
+            if (i == 0)
             {
                 <div class="rounded-lg overflow-hidden lg:row-span-2">
                     <a href="/Design/@Model.Categories[i].Id">
                         <partial name="_DesignCategory" for="@Model.Categories[i]" />
                     </a>
                 </div>
-            } else
+            }
+            else
             {
                 <div class="rounded-lg overflow-hidden">
                     <a href="/Design/@Model.Categories[i].Id">
@@ -42,7 +47,18 @@
                     </a>
                 </div>
             }
-           
+
+        }
+    </div>
+
+    <!--bottom Leaf-->
+    <img class="hidden absolute transform rotate-180 bottom-[-148%] z-[-2] right-0 max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
+
+    <!--Core Values Section-->
+    <div class="flex flex-col w-[87%] gap-[72px] mx-auto mt-[104px] lg:flex-row lg:gap-[113px]">
+        @foreach (var coreValue in Model.CoreValues)
+        {
+            <partial name="_CoreValue" for="@coreValue" />
         }
     </div>
 </div>

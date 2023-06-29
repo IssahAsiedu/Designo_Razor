@@ -1,0 +1,12 @@
+﻿@using Designo.Website.Models
+
+@model CoreValue
+
+
+<div class="flex flex-col gap-[45px] items-center justify-center md:flex-row lg:flex-col" >
+    <img src="~/assets/home/desktop/@Model.Img" />
+    <div class="flex flex-col gap-[45px] md:gap-[24px]">
+        <p class="text-medium text-[20px] text-center md:text-left lg:text-center">@Model.Title</p>
+        <p class="text-center md:text-left text-[16px] leading-[26px] lg:text-center">@Model.Description</p>
+    </div>
+</div>

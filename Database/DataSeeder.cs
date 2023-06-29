@@ -186,18 +186,24 @@ public class DataSeeder
                 Id = 1,
                 Title = "PASSIONATE",
                 Description = "Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions."
+                ,
+                Img = "illustration-passionate.svg"
             },
             new CoreValue
             {
                 Id = 2,
                 Title = "RESOURCEFUL",
                 Description = "Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs."
+            ,
+                Img = "illustration-resourceful.svg"
             },
             new CoreValue
             {
                 Id = 3,
                 Title = "FRIENDLY",
                 Description = " We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide."
+            ,
+                Img = "illustration-friendly.svg"
             }
         );
     }

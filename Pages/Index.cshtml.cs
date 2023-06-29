@@ -12,6 +12,8 @@ namespace Designo.Website.Pages
 
         public List<DesignCategory> Categories { get; set; } = new List<DesignCategory>();
 
+        public List<CoreValue> CoreValues { get; set; } = new List<CoreValue>();
+
         public IndexModel(ILogger<IndexModel> logger, DesignoContext context)
         {
             this.logger = logger;
@@ -20,7 +22,8 @@ namespace Designo.Website.Pages
 
         public async Task OnGet()
         {
-          Categories =  await context.DesignCategories.ToListAsync();
+            Categories =  await context.DesignCategories.ToListAsync();
+            CoreValues = await context.CoreValues.ToListAsync();
         }
     }
 }
