@@ -5,7 +5,7 @@
 
 <div class="pb-[365px] w-screen">
     <!--Hero-->
-    <div class="flex flex-col justify-center items-center h-[320px] gap-[37px] px-[23px] bg-[#E7816B] bg-no-repeat bg-center md:h-[252px]"
+    <div class="flex flex-col justify-center items-center h-[320px] gap-[37px] px-[23px] bg-[#E7816B] bg-no-repeat bg-center md:h-[252px] md:w-[87%] md:mx-auto md:rounded-lg"
          style="background-image: url('assets/shared/desktop/bg-pattern-two-circles');">
         <p class="text-[35px] text-white font-medium">@Model.Category!.Name Design</p>
         <p class="leading-[25px] text-white text-center">@Model.Category!.Description</p>
@@ -16,6 +16,18 @@
         @foreach(var design in Model.Designs)
         {
             <partial name="_Design" for="@design"/>
+        }
+    </div>
+
+    <!--Other Categories-->
+    <div class="flex flex-col gap-4 w-[87%] mx-auto mt-[96px] lg:flex-row">
+        @foreach(var designCategory in Model.OtherCategories)
+        {
+            <div class="rounded-lg overflow-hidden lg:row-span-2 h-[250px] md:h-[200px] lg:flex-1">
+                <a href="/Design/@designCategory.Name!.ToLower()">
+                    <partial name="_DesignCategory" for="@designCategory" />
+                </a>
+            </div>
         }
     </div>
 </div>
