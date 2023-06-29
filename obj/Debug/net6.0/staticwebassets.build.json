@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mwuaLee+lkz5fH48HuIDHAmldafoJAjmqqkoBfRoxuE=",
+  "Hash": "4tSrHhMyEvKKlBiXOiPhl5YBPW8aIw6xKux6sQ7VC3Q=",
   "Source": "Designo.Website",
   "BasePath": "_content/Designo.Website",
   "Mode": "Default",
@@ -527,23 +527,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-graphic-design.jpg"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png",
-      "SourceId": "Designo.Website",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
-      "BasePath": "_content/Designo.Website",
-      "RelativePath": "assets/home/desktop/image-hero-phone-removebg-preview.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png"
-    },
-    {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-hero-phone.png",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
@@ -561,12 +544,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-hero-phone.png"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-web-design-small.jpg",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "assets/home/desktop/image-web-design-small.jpg",
+      "RelativePath": "assets/home/desktop/image-hero-phone-removebg-preview.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,7 +558,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-web-design-small.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png"
     },
     {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-web-design.jpg",
@@ -593,6 +576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-web-design.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-web-design-small.jpg",
+      "SourceId": "Designo.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
+      "BasePath": "_content/Designo.Website",
+      "RelativePath": "assets/home/desktop/image-web-design-small.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\home\\desktop\\image-web-design-small.jpg"
     },
     {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\mobile\\image-app-design.jpg",
@@ -1343,12 +1343,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1357,15 +1357,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1374,15 +1374,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1391,7 +1391,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Designo.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
+      "BasePath": "_content/Designo.Website",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1479,12 +1496,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1493,15 +1510,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1510,15 +1527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1527,24 +1544,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Designo.Website",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
-      "BasePath": "_content/Designo.Website",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     }
   ]
 }

@@ -1,0 +1,38 @@
+@using Designo.Website.Props;
+
+
+@model Dictionary<AboutProperty, String>
+
+@{
+    string about = @"Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences.";
+}
+
+
+<style>
+        #section-@Model[AboutProperty.ID] {
+            background-image: url('@Model[AboutProperty.IMAGE_SM]');
+        }
+
+        @@media(min-width: 768px) {
+
+            #section-@Model[AboutProperty.ID] {
+                background-image: url('@Model[AboutProperty.IMAGE_MD]');
+            }
+        }
+
+        @@media(min-width: 1024px) {
+            #section-@Model[AboutProperty.ID] {
+                background-image: url('@Model[AboutProperty.IMAGE_LG]');
+            }
+        }
+</style>
+
+
+<div class="flex h-[715px] flex-col justify-end overflow-hidden md:w-[87%] md:mx-auto md:rounded-lg md:h-[632px] lg:flex-row-reverse lg:h-[480px]">
+    <div class="h-[50%] bg-no-repeat bg-cover bg-top md:w-[100%] lg:h-full lg:w-[35%]" id="section-@Model[AboutProperty.ID]">
+    </div>
+    <div class="flex flex-col gap-[15px] items-center justify-center h-[50%]  bg-[#E7816B] px-[44px] md:w-[100%] lg:h-full lg:w-[65%] lg:items-start lg:px-[83px]">
+        <p class="font-medium text-[32px] text-white">About Us</p>
+        <p class="text-white leading-[26px] text-center lg:text-left">@about</p>
+    </div>
+</div>

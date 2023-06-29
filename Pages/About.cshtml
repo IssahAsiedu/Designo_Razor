@@ -1,4 +1,26 @@
 ﻿@page
 @model Designo.Website.Pages.AboutModel
+@using Designo.Website.Props
+
 @{
+    Dictionary<AboutProperty, String> section1Props = new()
+    {
+        {AboutProperty.ID, "1" },
+        {AboutProperty.IMAGE_SM, "/assets/about/mobile/image-about-hero.jpg" },
+        {AboutProperty.IMAGE_MD, "/assets/about/tablet/image-about-hero.jpg" },
+        {AboutProperty.IMAGE_LG, "/assets/about/desktop/image-about-hero.jpg" },
+        {AboutProperty.MT, "0px"}
+    };
 }
+
+
+<div class="pb-[365px]">
+
+    <!--Hero Section 1 -->
+    <partial name="_AboutHero" for="@section1Props"/>
+
+    <!--Hero Section 2-->
+    
+    <!--Hero Section 2-->
+
+</div>

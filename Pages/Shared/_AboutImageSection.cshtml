@@ -1,0 +1,23 @@
+﻿@using Designo.Website.Props;
+
+@model Dictionary<AboutProperty, String>
+
+
+<style>
+        #section-@Model[AboutProperty.ID] {
+            background-image: url('@Model[AboutProperty.IMAGE_SM]');
+        }
+
+        @@media(min-width: 768px) {
+
+            #section-@Model[AboutProperty.ID] {
+                background-image: url('@Model[AboutProperty.IMAGE_MD]');
+            }
+        }
+
+        @@media(min-width: 1024px) {
+            #section-@Model[AboutProperty.ID] {
+                background-image: url('@Model[AboutProperty.IMAGE_LG]');
+            }
+        }
+ </style>
