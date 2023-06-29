@@ -8,8 +8,10 @@ public class DesignCategory
     public int Id { get; set; }
 
     [Required, MinLength(2)]
-    public string Name { get; set; } = String.Empty;
+    public string? Name { get; set; }
 
     public string Img { get; set; } = string.Empty;
+
+    public string Description { get; set; } = string.Empty;
 }
 

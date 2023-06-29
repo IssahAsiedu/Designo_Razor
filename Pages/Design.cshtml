@@ -1,8 +1,21 @@
-﻿@page "{Id:int}"
+﻿@page "{name}"
 @model Designo.Website.Pages.DesignModel
 
 
 
-<div class="h-[900px] w-screen">
+<div class="pb-[365px] w-screen">
+    <!--Hero-->
+    <div class="flex flex-col justify-center items-center h-[320px] gap-[37px] px-[23px] bg-[#E7816B] bg-no-repeat bg-center md:h-[252px]"
+         style="background-image: url('assets/shared/desktop/bg-pattern-two-circles');">
+        <p class="text-[35px] text-white font-medium">@Model.Category!.Name Design</p>
+        <p class="leading-[25px] text-white text-center">@Model.Category!.Description</p>
+    </div>
 
+    <!--Designs Section-->
+    <div class="grid w-[87%] mx-auto mt-[92px] grid gap-[40px] lg:grid-cols-3">
+        @foreach(var design in Model.Designs)
+        {
+            <partial name="_Design" for="@design"/>
+        }
+    </div>
 </div>

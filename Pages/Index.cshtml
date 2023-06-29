@@ -34,7 +34,7 @@
             if (i == 0)
             {
                 <div class="rounded-lg overflow-hidden lg:row-span-2">
-                    <a href="/Design/@Model.Categories[i].Id">
+                    <a href="/Design/@Model.Categories[i].Name.ToLower()">
                         <partial name="_DesignCategory" for="@Model.Categories[i]" />
                     </a>
                 </div>
@@ -42,7 +42,7 @@
             else
             {
                 <div class="rounded-lg overflow-hidden">
-                    <a href="/Design/@Model.Categories[i].Id">
+                    <a href="/Design/@Model.Categories[i].Name.ToLower()">
                         <partial name="_DesignCategory" for="@Model.Categories[i]" />
                     </a>
                 </div>

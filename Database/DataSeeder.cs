@@ -36,19 +36,22 @@ public class DataSeeder
             {
                 Id = 1,
                 Name = "WEB",
-                Img = "image-web-design.jpg"
+                Img = "image-web-design.jpg",
+                Description = "We build websites that serve as powerful marketing tools and bring memorable brand experiences."
             },
             new DesignCategory
             {
                 Id = 2,
                 Name = "APP",
-                Img = "image-app-design.jpg"
+                Img = "image-app-design.jpg",
+                Description = "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
             },
             new DesignCategory
             {
                 Id = 3,
                 Name = "GRAPHIC",
-                Img = "image-graphic-design.jpg"
+                Img = "image-graphic-design.jpg",
+                Description = "We deliver eye-catching branding materials that are tailored to meet your business objectives."
             }
             );
     }
@@ -72,42 +75,48 @@ public class DataSeeder
                 Id = 1,
                 Name = "EXPRESS",
                 DesignCategoryId = 1,
-                Description = "A multi-carrier shipping website for ecommerce businesses"
+                Description = "A multi-carrier shipping website for ecommerce businesses",
+                Img = "web-design/desktop/image-express.jpg"
             },
             new Design
             {
                 Id = 2,
                 Name = "TRANSFER",
                 DesignCategoryId = 1,
-                Description = "Site for low-cost money transfers and sending money within seconds"
+                Description = "Site for low-cost money transfers and sending money within seconds",
+                Img = "web-design/desktop/image-transfer.jpg"
             },
             new Design
             {
                 Id = 3,
                 Name = "PHOTON",
                 DesignCategoryId = 1,
-                Description = "A state-of-the-art music player with high-resolution audio and DSP effects"
+                Description = "A state-of-the-art music player with high-resolution audio and DSP effects",
+                Img = "web-design/desktop/image-photon.jpg"
             },
             new Design
             {
                 Id = 4,
                 Name = "BUILDER",
                 DesignCategoryId = 1,
-                Description = "Connects users with local contractors based on their location"
+                Description = "Connects users with local contractors based on their location",
+                Img = "web-design/desktop/image-builder.jpg"
             },
             new Design
             {
                 Id = 5,
                 Name = "BLOGR",
                 DesignCategoryId = 1,
-                Description = "Blogr is a platform for creating an online blog or publication"
+                Description = "Blogr is a platform for creating an online blog or publication",
+                Img = "web-design/desktop/image-blogr.jpg"
             },
             new Design
             {
                 Id = 6,
                 Name = "CAMP",
                 DesignCategoryId = 1,
-                Description = "Get expert training in coding, data, design, and digital marketing"
+                Description = "Get expert training in coding, data, design, and digital marketing",
+                Img = "web-design/desktop/image-camp.jpg"
             },
             new Design
             {

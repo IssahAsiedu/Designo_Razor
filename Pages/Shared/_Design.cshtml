@@ -1,0 +1,14 @@
+﻿@using Designo.Website.Models
+
+@model Design
+
+
+
+<div class="flex h-[478px] flex-col justify-end overflow-hidden rounded-lg md:flex-row md:h-[310px] lg:flex-col lg:h-[478px]">
+    <div class="h-[65%] bg-no-repeat bg-cover bg-top md:h-full md:w-[50%] lg:h-[65%] lg:w-auto" style="background-image: url('@Html.Raw($"/assets/{@Model.Img}")')">
+    </div>
+    <div class="flex flex-col gap-[15px] items-center justify-center h-[35%] bg-[#FDF3F0] px-[44px] md:h-auto md:w-[50%] lg:w-auto lg:h-[35%]">
+        <p class="font-medium text-[20px] text-[#E7816B]">@Model.Name</p>
+        <p class="text-[#333136] leading-[26px] text-center">@Model.Description</p>
+    </div>
+</div>
