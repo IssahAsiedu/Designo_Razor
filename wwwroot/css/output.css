@@ -739,18 +739,11 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
 .bg-cover {
   background-size: cover;
-}
-.bg-center {
-  background-position: center;
 }
 .bg-right {
   background-position: right;

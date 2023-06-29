@@ -1,12 +1,25 @@
 ﻿@page "{name}"
 @model Designo.Website.Pages.DesignModel
 
+<style>
+     #design-hero {
+        background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+        }
+
+        @@media(min-width: 768px) {
+
+            #design-hero {
+                background-image: url('/assets/web-design/desktop/bg-pattern-intro-web.svg');
+            }
+        }
+
+</style>
 
 
 <div class="pb-[365px] w-screen">
     <!--Hero-->
-    <div class="flex flex-col justify-center items-center h-[320px] gap-[37px] px-[23px] bg-[#E7816B] bg-no-repeat bg-center md:h-[252px] md:w-[87%] md:mx-auto md:rounded-lg"
-         style="background-image: url('assets/shared/desktop/bg-pattern-two-circles');">
+    <div class="flex flex-col justify-center items-center h-[320px] gap-[37px] px-[23px] bg-[#E7816B] bg-no-repeat bg-right md:h-[252px] md:w-[87%] md:mx-auto md:rounded-lg"
+          id="design-hero">
         <p class="text-[35px] text-white font-medium">@Model.Category!.Name Design</p>
         <p class="leading-[25px] text-white text-center">@Model.Category!.Description</p>
     </div>
