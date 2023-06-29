@@ -123,56 +123,64 @@ public class DataSeeder
                 Id = 7,
                 Name = "AIRFILTER",
                 DesignCategoryId = 2,
-                Description = "Solving the problem of poor indoor air quality by filtering the air"
+                Description = "Solving the problem of poor indoor air quality by filtering the air",
+                Img = "app-design/desktop/image-airfilter.jpg"
             },
             new Design
             {
                 Id = 8,
                 Name = "EYECAM",
                 DesignCategoryId = 2,
-                Description = "Product that lets you edit your favorite photos and videos at any time"
+                Description = "Product that lets you edit your favorite photos and videos at any time",
+                Img = "app-design/desktop/image-eyecam.jpg"
             },
             new Design
             {
                 Id = 9,
                 Name = "FACEIT",
                 DesignCategoryId = 2,
-                Description = "Get to meet your favorite internet superstar with the faceit app"
+                Description = "Get to meet your favorite internet superstar with the faceit app",
+                Img = "app-design/desktop/image-faceit.jpg"
             },
             new Design
             {
                 Id = 10,
                 Name = "TODO",
                 DesignCategoryId = 2,
-                Description = "A todo app that features cloud sync with light and dark mode"
+                Description = "A todo app that features cloud sync with light and dark mode",
+                Img = "app-design/desktop/image-todo.jpg"
             },
             new Design
             {
                 Id = 11,
                 Name = "LOOPSTUDIOS",
                 DesignCategoryId = 2,
-                Description = "A VR experience app made for Loopstudios"
+                Description = "A VR experience app made for Loopstudios",
+                Img = "app-design/desktop/image-loopstudios.jpg"
             },
             new Design
             {
                 Id = 12,
                 Name = "TIM BROWN",
                 DesignCategoryId = 3,
-                Description = "A book cover designed for Tim Brown’s new release, ‘Change’"
+                Description = "A book cover designed for Tim Brown’s new release, ‘Change’",
+                Img = "graphic-design/desktop/image-change.jpg"
             },
             new Design
             {
                 Id = 13,
                 Name = "BOXED WATER",
                 DesignCategoryId = 3,
-                Description = "A simple packaging concept made for Boxed Water"
+                Description = "A simple packaging concept made for Boxed Water",
+                Img = "graphic-design/desktop/image-boxed-water.jpg"
             },
             new Design
             {
                 Id = 14,
                 Name = "SCIENCE!",
                 DesignCategoryId = 3,
-                Description = "A poster made in collaboration with the Federal Art Project"
+                Description = "A poster made in collaboration with the Federal Art Project",
+                Img = "graphic-design/desktop/image-science.jpg"
             }
         );
     }
