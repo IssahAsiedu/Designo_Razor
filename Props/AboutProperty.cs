@@ -5,5 +5,6 @@ public enum AboutProperty
     IMAGE_MD,
     IMAGE_LG,
     MT,
-    ID
+    ID,
+    FLEX_DIRECTION
 }
