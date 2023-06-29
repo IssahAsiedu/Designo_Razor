@@ -1,0 +1,38 @@
+﻿@using Designo.Website.Models;
+
+@model DesignCategory
+
+@{
+    string imagePath = $"/assets/home/mobile/{Model.Img}";
+    string tabletPath = $"/assets/home/tablet/{Model.Img}";
+    string desktopPath = $"/assets/home/desktop/{Model.Img}";
+}
+
+<div class="h-full w-full bg-cover cursor-pointer @Model.Name-@Model.Id">
+    <style>
+        .@Model.Name-@Model.Id {
+            background-image: url('@imagePath');
+        }
+
+        @@media(min-width: 768px) {
+
+            .@Model.Name-@Model.Id {
+                background-image: url('@tabletPath');
+            }
+        }
+
+        @@media(min-width: 1024px) {
+            .@Model.Name-@Model.Id {
+                background-image: url('@desktopPath');
+            }
+        }
+    </style>
+
+    <div class="flex flex-col items-center justify-center h-full w-full hover:bg-[#E7816B] hover:bg-opacity-50">
+        <p class="text-white text-[40px] text-md text-center">@Model.Name DESIGN</p>
+        <div class="flex overflow-x-hidden relative w-[132px] mt-[16px] md:mt-[40px]">
+            <p class="text-white text-[15px] font-medium">VIEW PROJECTS</p>
+            <img class="absolute right-[-2px] transform -translate-y-1/2 top-[50%]" src="~/assets/shared/desktop/icon-right-arrow.svg"/>
+        </div>
+    </div>
+</div>

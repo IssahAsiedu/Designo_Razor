@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Designo.Website</title>
+    <link rel="stylesheet" href="~/css/output.css" />
+    <link href="~/css/_Layout.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="h-screen" style="font-family:'Jost', sans-serif;">
+
+    <header>
+        <nav class="fixed w-full z-10 top-0 h-[96px] bg-white flex items-center justify-center">
+            <div class="w-[87%] flex flex-wrap items-center justify-between h-full">
+
+                <a class="" asp-area="" asp-page="/Index">
+                    <img src="~/assets/shared/desktop/logo-dark.png" class="h-[27px] !important" />
+                </a>
+
+                <button class="navbar-toggler h-[27px] w-[24px] md:hidden" type="button">
+
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+
+                </button>
+
+                <div class="absolute z-10 top-[96px] w-full h-screen bg-black bg-opacity-40 left-0 right-0 h-screen nav-content md:block md:static md:w-auto md:h-auto md:bg-transparent">
+                    <ul class="navbar-nav bg-[#333136] h-[235px] flex flex-col justify-around px-[24px] py-[24px] md:bg-transparent md:h-auto md:flex-row md:space-x-5">
+                        <li class="nav-item">
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/Index">OUR COMPANY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/Privacy">LOCATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/Privacy">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="mt-[96px]">
+            @RenderBody()
+    </div>
+
+    <footer class="relative bottom-0">
+        <div class="bg-[#1D1C1E] relative flex flex-col items-center pb-[96px]">
+            <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col justify-around w-[87%] bg-[#E7816B] h-[379px] items-center py-[64px] px-[26px] rounded-lg md:h-[350px]">
+                <p class="text-center text-[32px] text-white">
+                    Let’s talk about your project
+                </p>
+                <p class="text-center text-[15px] text-white">
+                    Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+                </p>
+                <button class="bg-white hover:bg-[#FFAD9B] font-bold py-2 px-4 rounded uppercase">
+                    Get in touch
+                </button>
+            </div>
+            <nav class="flex flex-col justify-center mt-[253px] items-center w-[87%] md:flex-row md:justify-between">
+                <a asp-area="" asp-page="/Index">
+                    <img src="~/assets/shared/desktop/logo-light.png" class="h-[27px] !important" />
+                </a>
+                <div class="w-full bg-[#979797] h-[1px] mt-[29px] md:hidden"></div>
+                <ul class="flex flex-col items-center gap-[29px] mt-[29px] md:flex-row md:mt-0">
+                    <li class="text-white">
+                        <a asp-area="" asp-page="/Index">OUR COMPANY</a>
+                    </li>
+                    <li class="text-white">
+                        <a asp-area="" asp-page="/Privacy">LOCATIONS</a>
+                    </li>
+                    <li class="text-white">
+                        <a asp-area="" asp-page="/Privacy">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="w-[87%] bg-[#979797] h-[1px] mt-[43px] hidden md:block"></div>
+            <div class="mt-[29px] flex flex-col items-center gap-[46px] w-[87%] md:flex-row md:justify-between md:items-end">
+                <div class="flex flex-col gap-[13px] items-center md:items-start">
+                    <p class="font-bold text-[#333136] text-[16px]">Designo Central Office</p>
+                    <p class="text-[#333136] text-[16px]">  3886 Wellington Street</p>
+                    <p class="text-[#333136] text-[16px]">Toronto, Ontario M9C 3J5</p>
+                </div>
+                <div class="flex flex-col gap-[13px] items-center md:items-start">
+                    <p class="font-bold text-[#333136] text-[16px]">  Contact Us (Central Office)</p>
+                    <p class="text-[#333136] text-[16px]">P : +1 253-863-8967</p>
+                    <p class="text-[#333136] text-[16px]">M : contact@designo.co</p>
+                </div>
+                <div class="flex gap-[15px]">
+                    <img src="~/assets/shared/desktop/icon-facebook.svg" />
+                    <img src="~/assets/shared/desktop/icon-youtube.svg" />
+                    <img src="~/assets/shared/desktop/icon-twitter.svg" />
+                    <img src="~/assets/shared/desktop/icon-pinterest.svg" />
+                    <img src="~/assets/shared/desktop/icon-instagram.svg" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+
+        let navbarToggler = document.querySelector(".navbar-toggler");
+        navbarToggler.classList.toggle("collapsed");
+        document.querySelector(".nav-content").classList.toggle("hidden");
+
+        navbarToggler.onclick = function () {
+            navbarToggler.classList.toggle("collapsed");
+            document.querySelector(".nav-content").classList.toggle("hidden");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="pb-[365px] md:flex md:flex-col md:items-center md:w-[100vw]">
+
+    <!-- Hero section-->
+    <div class="bg-[#E7816B] relative h-[843px] overflow-y-hidden overflow-x-hidden md:w-[87%] md:rounded-lg lg:h-[640px]">
+        <div class="absolute flex flex-col items-center pt-[87px] left-0 right-0 top-0 bottom-0 gap-[33px] px-[33px] md:px-[110px] lg:px-[0px] lg:gap-[50px] lg:items-start lg:w-[540px] lg:ml-[96px]" style="z-index: 4;">
+            <p class="text-center text-white text-[32px] lg:text-left lg:text-[48px]">
+                Award-winning custom designs and digital branding solutions
+            </p>
+            <p class="text-center text-white leading-[25px] lg:text-left lg:text-[16px] lg:leading-[26px]">
+                With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
+            </p>
+            <button class="bg-white hover:bg-[#FFAD9B] font-bold py-2 px-4 rounded uppercase" style="z-index: 4;">
+                LEARN MORE
+            </button>
+        </div>
+        <img src="~/assets/home/desktop/image-hero-phone.png" class="absolute left-1/2 transform -translate-x-1/2 top-[513px] md:top-[300px] lg:translate-x-0 lg:translate-y-0 lg:left-auto lg:right-[-96px] lg:top-[-9%]" />
+    </div>
+
+    <!--Category Section-->
+    <div class="grid grid-rows-3 gap-4 w-[87%] mx-auto mt-[113px] md:grid-rows-md-3 lg:grid-cols-2 lg:grid-rows-2 lg:h-[640px]">
+        @for (int i = 0; i < Model.Categories.Count; i++)
+        {
+            
+            if(i == 0)
+            {
+                <div class="rounded-lg overflow-hidden lg:row-span-2">
+                    <a href="/Design/@Model.Categories[i].Id">
+                        <partial name="_DesignCategory" for="@Model.Categories[i]" />
+                    </a>
+                </div>
+            } else
+            {
+                <div class="rounded-lg overflow-hidden">
+                    <a href="/Design/@Model.Categories[i].Id">
+                        <partial name="_DesignCategory" for="@Model.Categories[i]" />
+                    </a>
+                </div>
+            }
+           
+        }
+    </div>
+</div>

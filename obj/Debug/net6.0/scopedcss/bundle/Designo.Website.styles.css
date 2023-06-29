@@ -1,0 +1,84 @@
+/* _content/Designo.Website/Pages/Shared/_Layout.cshtml.rz.scp.css */
+.footer[b-v0ztm3ho57] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  background: blue;
+}
+
+.navbar[b-v0ztm3ho57] {
+    height: 96px;
+}
+
+.navbar-toggler .nav-bars[b-v0ztm3ho57]{
+    width: 24px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler[b-v0ztm3ho57],
+.navbar-toggler:focus[b-v0ztm3ho57],
+.navbar-toggler:active[b-v0ztm3ho57],
+.navbar-toggler-icon:focus[b-v0ztm3ho57] {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler .nav-bars span[b-v0ztm3ho57] {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon[b-v0ztm3ho57] {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar[b-v0ztm3ho57] {
+    margin-top: 0px;
+}
+
+.navbar-toggler .nav-bars .top-bar[b-v0ztm3ho57] {
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .nav-bars .middle-bar[b-v0ztm3ho57] {
+    opacity: 0;
+}
+
+.navbar-toggler .nav-bars .bottom-bar[b-v0ztm3ho57] {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.collapsed .nav-bars .top-bar[b-v0ztm3ho57] {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.collapsed .nav-bars .middle-bar[b-v0ztm3ho57] {
+    opacity: 1;
+}
+
+.collapsed .nav-bars .bottom-bar[b-v0ztm3ho57] {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+.nav-items[b-v0ztm3ho57] {
+    top: 120px;
+}
+
+.position-md-static[b-v0ztm3ho57] {
+    position: static;
+}
