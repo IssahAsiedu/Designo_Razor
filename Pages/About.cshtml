@@ -17,10 +17,27 @@
 <div class="pb-[365px]">
 
     <!--Hero Section 1 -->
-    <partial name="_AboutHero" for="@section1Props"/>
+    <partial name="_AboutHero" for="@section1Props" />
 
     <!--Hero Section 2-->
-    
-    <!--Hero Section 2-->
+    <div class="w-full md:mt-[135px]">
+        <partial name="_AboutImageSection"
+                 for="@Model.Contents[0]"
+                 view-data="new ViewDataDictionary(ViewData){ { AboutProperty.FLEX_DIRECTION.ToString(), @Html.Raw("lg:flex-row") }}" />
+    </div>
 
+    <!--Locations-->
+    <div class="w-[87%] mx-auto mt-[92px] flex flex-col gap[48px] md:flex-row md:justify-between">
+        @foreach(var location in Model.Locations)
+        {
+           <partial name="_LocationIllustration" for="@location" /> 
+        }
+    </div>
+
+    <!--Hero Section 2-->
+    <div class="w-full mt-[135px]">
+        <partial name="_AboutImageSection"
+                 for="@Model.Contents[1]"
+                 view-data="new ViewDataDictionary(ViewData){ { AboutProperty.FLEX_DIRECTION.ToString(), @Html.Raw("lg:flex-row-reverse") }}" />
+    </div>
 </div>

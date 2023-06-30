@@ -42,7 +42,7 @@
             else
             {
                 <div class="rounded-lg overflow-hidden">
-                    <a href="/Design/@Model.Categories[i].Name.ToLower()">
+                    <a href="/Design/@Model.Categories[i].Name!.ToLower()">
                         <partial name="_DesignCategory" for="@Model.Categories[i]" />
                     </a>
                 </div>

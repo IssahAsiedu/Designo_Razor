@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\assets\\about\\desktop\\image-world-class-talent.jpg"
     },
     {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-location.svg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\bg-location.svg"
+    },
+    {
       "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-pattern-hero-about-mobile.svg",
       "PackagePath": "staticwebassets\\assets\\about\\mobile\\bg-pattern-hero-about-mobile.svg"
     },

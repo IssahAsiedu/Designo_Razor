@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4tSrHhMyEvKKlBiXOiPhl5YBPW8aIw6xKux6sQ7VC3Q=",
+  "Hash": "BRevskNH8bZCXdSKPBSGUBQDBdQUE6O3WDKKyJO9jcE=",
   "Source": "Designo.Website",
   "BasePath": "_content/Designo.Website",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\about\\desktop\\image-world-class-talent.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-location.svg",
+      "SourceId": "Designo.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
+      "BasePath": "_content/Designo.Website",
+      "RelativePath": "assets/about/mobile/bg-location.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\about\\mobile\\bg-location.svg"
     },
     {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-pattern-hero-about-mobile.svg",

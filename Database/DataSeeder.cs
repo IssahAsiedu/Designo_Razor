@@ -15,8 +15,50 @@ public class DataSeeder
         PopulateCoreValues(context);
         PopulateDesignCategories(context);
         PopulateDesigns(context);
-
+        PopulateLocations(context);
         context.SaveChangesAsync();
+    }
+
+    private static void PopulateLocations(DesignoContext context)
+    {
+        context.Locations.AddRange(
+            new Location()
+            {
+                Id = 1,
+                Name = "Canada",
+                Branch = "Central",
+                Street = "3886 Wellington Street",
+                City = "Toronto, Ontario M9C 3J5",
+                PhoneNumber = "+1 253-863-8967",
+                Email = "contact@designo.co",
+                Img = "illustration-canada.svg",
+                Map = ""
+            },
+            new Location()
+            {
+                Id = 2,
+                Name = "Australia",
+                Branch = "AU",
+                Street = "19 Balonne Street",
+                City = "New South Wales 2443",
+                PhoneNumber = "(02) 6720 9092",
+                Email = "contact@designo.au",
+                Img = "illustration-australia.svg",
+                Map = ""
+            },
+            new Location()
+            {
+                Id = 3,
+                Name = "United Kingdom",
+                Branch = "UK",
+                Street = "13  Colorado Way",
+                City = "Rhyd-y-fro SA8 9GA",
+                PhoneNumber = "078 3115 1400",
+                Email = "contact@designo.uk",
+                Img = "illustration-united-kingdom.svg",
+                Map = ""
+            }
+        );
     }
 
     public static void PopulateDesignCategories(DesignoContext context)
@@ -224,4 +266,5 @@ public class DataSeeder
             }
         );
     }
+
 }

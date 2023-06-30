@@ -18,4 +18,6 @@ public class DesignoContext: DbContext
     public DbSet<Design> Designs { get; set; }
 
     public DbSet<DesignCategory> DesignCategories { get; set; }
+
+    public DbSet<Location> Locations { get; set; }
 }
