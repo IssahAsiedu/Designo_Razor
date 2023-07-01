@@ -1214,6 +1214,14 @@ video {
     gap: 50px;
   }
 
+  .lg\:bg-\[url\(\'\/assets\/shared\/desktop\/bg-pattern-two-circles\.svg\'\)\] {
+    background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+  }
+
+  .lg\:bg-left {
+    background-position: left;
+  }
+
   .lg\:px-\[0px\] {
     padding-left: 0px;
     padding-right: 0px;
