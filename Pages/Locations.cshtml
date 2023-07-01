@@ -1,4 +1,27 @@
 ﻿@page
 @model Designo.Website.Pages.LocationsModel
+@using Designo.Website.Props;
+
 @{
+    
 }
+
+<div class="pb-[365px]">
+    
+    <div class="flex flex-col gap-[62px] md:gap-[24px] md:w-[87%] md:mx-auto">
+    @for(int i = 0; i < Model.Locations.Count; i++)
+    {
+            var location = Model.Locations[i];
+
+            if(i % 2 == 0)
+            {
+                @await Html.PartialAsync("_LocationMap", location, new ViewDataDictionary(ViewData){{AboutProperty.FLEX_DIRECTION.ToString(), "flex-row-reverse"}})
+            } else
+            {
+                @await Html.PartialAsync("_LocationMap", location, new ViewDataDictionary(ViewData){{AboutProperty.FLEX_DIRECTION.ToString(), "flex-row"}})
+            }
+        }
+
+    </div>
+
+</div>

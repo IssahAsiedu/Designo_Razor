@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BRevskNH8bZCXdSKPBSGUBQDBdQUE6O3WDKKyJO9jcE=",
+  "Hash": "5Q6U68DTDutK2xi2aIJfQG4kYldZALk09+EdPgLfU6w=",
   "Source": "Designo.Website",
   "BasePath": "_content/Designo.Website",
   "Mode": "Default",
@@ -748,12 +748,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\locations\\desktop\\image-map-canada.png"
     },
     {
-      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\desktop\\image-map-united-kingdom.png",
+      "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\desktop\\image-map-uk.png",
       "SourceId": "Designo.Website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\",
       "BasePath": "_content/Designo.Website",
-      "RelativePath": "assets/locations/desktop/image-map-united-kingdom.png",
+      "RelativePath": "assets/locations/desktop/image-map-uk.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,7 +762,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\locations\\desktop\\image-map-united-kingdom.png"
+      "OriginalItemSpec": "wwwroot\\assets\\locations\\desktop\\image-map-uk.png"
     },
     {
       "Identity": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\tablet\\image-map-australia.png",

@@ -32,7 +32,7 @@ public class DataSeeder
                 PhoneNumber = "+1 253-863-8967",
                 Email = "contact@designo.co",
                 Img = "illustration-canada.svg",
-                Map = ""
+                Map = "image-map-canada.png"
             },
             new Location()
             {
@@ -44,7 +44,7 @@ public class DataSeeder
                 PhoneNumber = "(02) 6720 9092",
                 Email = "contact@designo.au",
                 Img = "illustration-australia.svg",
-                Map = ""
+                Map = "image-map-australia.png"
             },
             new Location()
             {
@@ -56,7 +56,7 @@ public class DataSeeder
                 PhoneNumber = "078 3115 1400",
                 Email = "contact@designo.uk",
                 Img = "illustration-united-kingdom.svg",
-                Map = ""
+                Map = "image-map-uk.png"
             }
         );
     }

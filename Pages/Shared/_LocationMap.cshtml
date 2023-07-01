@@ -1,0 +1,36 @@
+﻿@using Designo.Website.Models
+@using Designo.Website.Props
+@model Location
+
+
+<style>
+        #location-map-img-@Model.Id {
+            background-image: url('/assets/locations/tablet/@Model.Map');
+        }
+
+
+        @@media(min-width: 1024px) {
+            #location-map-img-@Model.Id {
+                background-image: url('/assets/locations/desktop/@Model.Map');
+            }
+        }
+</style>
+
+<div class="h-[714px] flex flex-col md:gap-[26px] md:h-[685px] lg:h-[326px] lg:@ViewData[AboutProperty.FLEX_DIRECTION.ToString()]">
+    <div class="bg-red-500 grow-[2] bg-no-repeat bg-cover md:rounded-lg lg:grow" id="location-map-img-@Model.Id"></div>
+    <div class="flex bg-[#FDF3F0] flex-col items-center justify-center grow md:items-start md:px-[79px] md:rounded-lg">
+        <p class="text-[32px] text-center font-medium text-[#E7816B]">@Model.Name</p>
+        <div class="flex flex-col items-center md:flex-row md:gap-[100px]">
+            <div class="flex flex-col items-center text-[#333136] mt-[23px] md:items-start">
+                <p class="font-bold">Designo @Model.Branch Office</p>
+                <p>@Model.Street</p>
+                <p>@Model.City</p>
+            </div>
+            <div class="flex flex-col items-center text-[#333136] mt-[23px] md:items-start">
+                <p class="font-bold">Contact</p>
+                <p>P: @Model.PhoneNumber</p>
+                <p>M: @Model.Email</p>
+            </div>
+        </div>
+    </div>
+</div>
