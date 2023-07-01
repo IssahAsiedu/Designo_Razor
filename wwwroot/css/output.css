@@ -506,6 +506,12 @@ video {
 .top-0 {
   top: 0px;
 }
+.top-\[1106px\] {
+  top: 1106px;
+}
+.top-\[200px\] {
+  top: 200px;
+}
 .top-\[417px\] {
   top: 417px;
 }
@@ -787,8 +793,14 @@ video {
 .bg-\[url\(\'\/assets\/shared\/desktop\/bg-pattern-three-circles\.svg\'\)\] {
   background-image: url('/assets/shared/desktop/bg-pattern-three-circles.svg');
 }
+.bg-\[url\(\'\/assets\/shared\/desktop\/bg-pattern-two-circles\.svg\'\)\] {
+  background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+}
 .bg-cover {
   background-size: cover;
+}
+.bg-left-top {
+  background-position: left top;
 }
 .bg-right {
   background-position: right;
@@ -1063,8 +1075,16 @@ video {
     background-color: transparent;
   }
 
+  .md\:bg-\[url\(\'\/assets\/home\/desktop\/bg-pattern-hero-home\.svg\'\)\] {
+    background-image: url('/assets/home/desktop/bg-pattern-hero-home.svg');
+  }
+
   .md\:bg-\[url\(\'\/assets\/shared\/desktop\/bg-pattern-two-circles\.svg\'\)\] {
     background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+  }
+
+  .md\:bg-none {
+    background-image: none;
   }
 
   .md\:px-\[110px\] {
@@ -1214,12 +1234,20 @@ video {
     gap: 50px;
   }
 
+  .lg\:bg-\[url\(\'\/assets\/home\/desktop\/bg-pattern-hero-home\.svg\'\)\] {
+    background-image: url('/assets/home/desktop/bg-pattern-hero-home.svg');
+  }
+
   .lg\:bg-\[url\(\'\/assets\/shared\/desktop\/bg-pattern-two-circles\.svg\'\)\] {
     background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
   }
 
-  .lg\:bg-left {
-    background-position: left;
+  .lg\:bg-none {
+    background-image: none;
+  }
+
+  .lg\:bg-left-bottom {
+    background-position: left bottom;
   }
 
   .lg\:px-\[0px\] {

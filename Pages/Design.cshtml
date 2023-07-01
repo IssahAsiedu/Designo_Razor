@@ -24,6 +24,10 @@
         <p class="leading-[25px] text-white text-center">@Model.Category!.Description</p>
     </div>
 
+    <!--Top Leaf-->
+    <img class="hidden absolute top-[200px] z-[-2] left-0 max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
+
+
     <!--Designs Section-->
     <div class="grid w-[87%] mx-auto mt-[92px] grid gap-[40px] lg:grid-cols-3">
         @foreach(var design in Model.Designs)
