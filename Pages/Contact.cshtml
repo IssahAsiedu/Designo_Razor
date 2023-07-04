@@ -1,4 +1,41 @@
 ﻿@page
 @model Designo.Website.Pages.ContactsModel
 @{
+    ViewData["footer_absolute_display"] = "hidden";
+    ViewData["footer_body_margin"] = "96px";
 }
+
+<div class="pb-[160px]">
+
+    <div class="bg-[#E7816B] text-white h-[764px] flex flex-col px-[24px] py-[83px] md:h-[711px] md:w-[87%] md:mx-auto md:rounded-lg md:px-[60px] lg:flex-row lg:h-[480px]">
+
+        <div class="grow flex items-center flex-col gap-[38px] md:items-start lg:w-[60%] lg:pt-[44px] lg:pr-[93px]">
+            <p class="text-[32px] font-medium">Contact Us</p> 
+
+            <p class="text-center leading-[25px] md:text-left">
+                Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
+            </p>
+        </div>
+
+        <div class="grow lg:w-[40%]">
+            <form class="flex flex-col items-center justify-between h-full text-[15px]">
+                <input placeholder="Name" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                <input placeholder="Email Address" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                <input placeholder="Phone" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                <textarea placeholder="Your Message" class="w-full bg-transparent border-b border-white border-solid focus:outline-none pb-[6px] placeholder-white placeholder-opacity-50 resize-none h-[96px] max-h-[96px] px-[20px]"></textarea>
+                <button class="bg-white text-black hover:bg-[#FFAD9B] font-medium py-2 px-4 rounded uppercase md:self-end" style="z-index: 4;">
+                    SUBMIT
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <!--Locations-->
+    <div class="w-[87%] mx-auto mt-[92px] flex flex-col gap-[48px] md:flex-row md:justify-around">
+        @foreach (var location in Model.Locations)
+        {
+            <partial name="_LocationIllustration" for="@location" />
+        }
+    </div>
+</div>

@@ -506,9 +506,6 @@ video {
 .top-0 {
   top: 0px;
 }
-.top-\[1106px\] {
-  top: 1106px;
-}
 .top-\[200px\] {
   top: 200px;
 }
@@ -549,9 +546,6 @@ video {
 .mt-\[23px\] {
   margin-top: 23px;
 }
-.mt-\[253px\] {
-  margin-top: 253px;
-}
 .mt-\[29px\] {
   margin-top: 29px;
 }
@@ -569,6 +563,9 @@ video {
 }
 .mt-\[96px\] {
   margin-top: 96px;
+}
+.block {
+  display: block;
 }
 .flex {
   display: flex;
@@ -624,6 +621,9 @@ video {
 .h-\[715px\] {
   height: 715px;
 }
+.h-\[764px\] {
+  height: 764px;
+}
 .h-\[843px\] {
   height: 843px;
 }
@@ -635,6 +635,9 @@ video {
 }
 .h-screen {
   height: 100vh;
+}
+.max-h-\[96px\] {
+  max-height: 96px;
 }
 .w-\[132px\] {
   width: 132px;
@@ -677,6 +680,9 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.resize-none {
+  resize: none;
 }
 .grid-rows-3 {
   grid-template-rows: repeat(3, 250px);
@@ -726,6 +732,9 @@ video {
 .gap-\[37px\] {
   gap: 37px;
 }
+.gap-\[38px\] {
+  gap: 38px;
+}
 .gap-\[40px\] {
   gap: 40px;
 }
@@ -759,6 +768,16 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
 .bg-\[\#1D1C1E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(29 28 30 / var(--tw-bg-opacity));
@@ -782,6 +801,9 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-transparent {
+  background-color: transparent;
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -815,6 +837,10 @@ video {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .px-\[23px\] {
   padding-left: 23px;
   padding-right: 23px;
@@ -847,8 +873,18 @@ video {
   padding-top: 64px;
   padding-bottom: 64px;
 }
+.py-\[83px\] {
+  padding-top: 83px;
+  padding-bottom: 83px;
+}
+.pb-\[160px\] {
+  padding-bottom: 160px;
+}
 .pb-\[365px\] {
   padding-bottom: 365px;
+}
+.pb-\[6px\] {
+  padding-bottom: 6px;
 }
 .pb-\[96px\] {
   padding-bottom: 96px;
@@ -903,9 +939,30 @@ video {
   --tw-text-opacity: 1;
   color: rgb(231 129 107 / var(--tw-text-opacity));
 }
+.text-\[\#FFFFFF80\] {
+  color: #FFFFFF80;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.placeholder-white::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+.placeholder-white::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-placeholder-opacity));
+}
+.placeholder-opacity-50::-moz-placeholder {
+  --tw-placeholder-opacity: 0.5;
+}
+.placeholder-opacity-50::placeholder {
+  --tw-placeholder-opacity: 0.5;
 }
 .hover\:bg-\[\#E7816B\]:hover {
   --tw-bg-opacity: 1;
@@ -917,6 +974,10 @@ video {
 }
 .hover\:bg-opacity-50:hover {
   --tw-bg-opacity: 0.5;
+}
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 @media (min-width: 768px) {
 
@@ -987,6 +1048,10 @@ video {
 
   .md\:h-\[685px\] {
     height: 685px;
+  }
+
+  .md\:h-\[711px\] {
+    height: 711px;
   }
 
   .md\:h-auto {
@@ -1067,6 +1132,10 @@ video {
     margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:self-end {
+    align-self: flex-end;
+  }
+
   .md\:rounded-lg {
     border-radius: 0.5rem;
   }
@@ -1090,6 +1159,11 @@ video {
   .md\:px-\[110px\] {
     padding-left: 110px;
     padding-right: 110px;
+  }
+
+  .md\:px-\[60px\] {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .md\:px-\[79px\] {
@@ -1168,8 +1242,16 @@ video {
     width: 35%;
   }
 
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
   .lg\:w-\[540px\] {
     width: 540px;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
   }
 
   .lg\:w-\[65\%\] {
@@ -1258,6 +1340,14 @@ video {
   .lg\:px-\[83px\] {
     padding-left: 83px;
     padding-right: 83px;
+  }
+
+  .lg\:pr-\[93px\] {
+    padding-right: 93px;
+  }
+
+  .lg\:pt-\[44px\] {
+    padding-top: 44px;
   }
 
   .lg\:text-left {
