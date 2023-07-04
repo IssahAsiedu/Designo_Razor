@@ -209,6 +209,10 @@
       "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-two-circles.svg"
     },
     {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\caution-svg.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\caution-svg.svg"
+    },
+    {
       "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-facebook.svg",
       "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-facebook.svg"
     },

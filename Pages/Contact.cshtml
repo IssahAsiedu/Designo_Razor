@@ -1,8 +1,10 @@
 ﻿@page
 @model Designo.Website.Pages.ContactsModel
+@using Designo.Website.Models;
 @{
     ViewData["footer_absolute_display"] = "hidden";
     ViewData["footer_body_margin"] = "96px";
+    var showEmailIcon = ViewData["email_invalid"] ?? false;
 }
 
 <div class="pb-[160px]">
@@ -18,14 +20,29 @@
         </div>
 
         <div class="grow lg:w-[40%]">
-            <form class="flex flex-col items-center justify-between h-full text-[15px]">
-                <input placeholder="Name" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
-                <input placeholder="Email Address" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
-                <input placeholder="Phone" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
-                <textarea placeholder="Your Message" class="w-full bg-transparent border-b border-white border-solid focus:outline-none pb-[6px] placeholder-white placeholder-opacity-50 resize-none h-[96px] max-h-[96px] px-[20px]"></textarea>
+            <form class="flex flex-col items-center justify-between h-full text-[15px]" method="post">
+
+                <input placeholder="Name" asp-for="Customer.Name" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+
+                <div class="relative w-full">
+                    <input placeholder="Email Address" asp-for="Customer.Email" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                    <div class="flex absolute right-0 top-0 gap-[12px]">
+                        <span asp-validation-for="Customer.Email" class="italic"></span>
+                        @if((bool) showEmailIcon) {
+                            <span><img src="~/assets/shared/desktop/caution-svg.svg"/></span>
+                        }
+                    </div>
+                </div>
+
+
+                <input placeholder="Phone" asp-for="Customer.Phone" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+
+                <textarea placeholder="Your Message" asp-for="Customer.Message" class="w-full bg-transparent border-b border-white border-solid focus:outline-none pb-[6px] placeholder-white placeholder-opacity-50 resize-none h-[96px] max-h-[96px] px-[20px]"></textarea>
+
                 <button class="bg-white text-black hover:bg-[#FFAD9B] font-medium py-2 px-4 rounded uppercase md:self-end" style="z-index: 4;">
                     SUBMIT
                 </button>
+
             </form>
         </div>
 

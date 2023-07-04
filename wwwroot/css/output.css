@@ -717,6 +717,9 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-\[12px\] {
+  gap: 12px;
+}
 .gap-\[13px\] {
   gap: 13px;
 }
@@ -924,6 +927,9 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
 .leading-\[25px\] {
   line-height: 25px;
@@ -1330,6 +1336,10 @@ video {
 
   .lg\:bg-left-bottom {
     background-position: left bottom;
+  }
+
+  .lg\:bg-right-bottom {
+    background-position: right bottom;
   }
 
   .lg\:px-\[0px\] {
