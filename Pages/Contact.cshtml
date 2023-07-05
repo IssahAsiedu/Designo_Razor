@@ -12,6 +12,7 @@
 
     <div class="bg-[#E7816B] text-white h-[764px] flex flex-col px-[24px] py-[83px] md:h-[711px] md:w-[87%] md:mx-auto md:rounded-lg md:px-[60px] lg:flex-row lg:h-[480px]">
 
+        <!--Contact description-->
         <div class="grow flex items-center flex-col gap-[38px] md:items-start lg:w-[60%] lg:pt-[44px] lg:pr-[93px]">
             <p class="text-[32px] font-medium">Contact Us</p> 
 
@@ -20,13 +21,14 @@
             </p>
         </div>
 
+        <!--Contact Form-->
         <div class="grow lg:w-[40%]">
             <form class="flex flex-col items-center justify-between h-full text-[15px]" method="post">
 
-                <input placeholder="Name" asp-for="Customer.Name" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                <input placeholder="Name" asp-for="Customer.Name" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px] focus:border-b-[3px] cursor-pointer" />
 
                 <div class="relative w-full">
-                    <input placeholder="Email Address" asp-for="Customer.Email" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                    <input placeholder="Email Address" asp-for="Customer.Email" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px] focus:border-b-[3px] cursor-pointer" />
                     <div class="flex absolute right-0 top-0 gap-[12px]">
                         <span asp-validation-for="Customer.Email" class="italic"></span>
                         @if((bool) showEmailIcon) {
@@ -36,11 +38,11 @@
                 </div>
 
 
-                <input placeholder="Phone" asp-for="Customer.Phone" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px]" />
+                <input placeholder="Phone" asp-for="Customer.Phone" class="w-full bg-transparent border-b border-white border-solid focus:outline-none placeholder-white placeholder-opacity-50 pb-[6px] px-[20px] focus:border-b-[3px] cursor-pointer" />
 
-                <textarea placeholder="Your Message" asp-for="Customer.Message" class="w-full bg-transparent border-b border-white border-solid focus:outline-none pb-[6px] placeholder-white placeholder-opacity-50 resize-none h-[96px] max-h-[96px] px-[20px]"></textarea>
+                <textarea placeholder="Your Message" asp-for="Customer.Message" class="w-full bg-transparent border-b border-white border-solid focus:outline-none pb-[6px] placeholder-white placeholder-opacity-50 resize-none h-[96px] max-h-[96px] px-[20px] focus:border-b-[3px] cursor-pointer"></textarea>
 
-                <button class="bg-white text-black hover:bg-[#FFAD9B] font-medium py-2 px-4 rounded uppercase md:self-end" style="z-index: 4;">
+                <button class="bg-white w-[152px] text-black hover:bg-[#FFAD9B] font-medium py-2 px-4 rounded uppercase md:self-end hover:text-white" style="z-index: 4;">
                     SUBMIT
                 </button>
 
@@ -50,10 +52,13 @@
     </div>
 
     <!--Locations-->
-    <div class="w-[87%] mx-auto mt-[92px] flex flex-col gap-[48px] md:flex-row md:justify-around">
+    <div class="relative w-[87%] mx-auto mt-[92px] flex flex-col gap-[48px] md:flex-row md:justify-around">
         @foreach (var location in Model.Locations)
         {
             <partial name="_LocationIllustration" for="@location" />
         }
+
+        <!--bottom Leaf-->
+        <img class="hidden absolute top-[125px] z-[-2] right-[-13%] max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
     </div>
 </div>

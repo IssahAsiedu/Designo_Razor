@@ -993,6 +993,13 @@ video {
 .hover\:bg-opacity-50:hover {
   --tw-bg-opacity: 0.5;
 }
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.focus\:border-b-\[3px\]:focus {
+  border-bottom-width: 3px;
+}
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
