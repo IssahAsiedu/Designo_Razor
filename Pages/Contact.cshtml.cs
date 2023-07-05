@@ -1,11 +1,9 @@
 using Designo.Website.Database;
 using Designo.Website.Models;
-using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
 
 namespace Designo.Website.Pages;
 public class ContactsModel : PageModel

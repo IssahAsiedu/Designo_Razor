@@ -8,9 +8,27 @@
     var showEmailIcon = ViewData["email_invalid"] ?? false;
 }
 
+<style>
+    #contact-section {
+        background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
+    }
+
+    @@media(min-width: 768px) {
+
+        #contact-section {
+            background-image: url('assets/shared/desktop/bg-pattern-small-circle.svg');
+            background-size: 640px;
+            background-position-x: -80px;
+            background-position-y: -192px;
+        }
+    }
+
+</style>
+
 <div class="pb-[160px]">
 
-    <div class="bg-[#E7816B] text-white h-[764px] flex flex-col px-[24px] py-[83px] md:h-[711px] md:w-[87%] md:mx-auto md:rounded-lg md:px-[60px] lg:flex-row lg:h-[480px]">
+    <div class="bg-[#E7816B] bg-no-repeat text-white h-[764px] flex flex-col px-[24px] py-[83px] md:h-[711px] md:w-[87%] md:mx-auto md:rounded-lg md:px-[60px] lg:flex-row lg:h-[480px]" id="contact-section"
+    >
 
         <!--Contact description-->
         <div class="grow flex items-center flex-col gap-[38px] md:items-start lg:w-[60%] lg:pt-[44px] lg:pr-[93px]">
