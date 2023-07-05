@@ -1,6 +1,9 @@
-﻿@{
+﻿@using Designo.Website.Props;
+
+@{
     var displayProperty = ViewData["footer_absolute_display"] ?? "block";
     var paddingTop = ViewData["footer_body_margin"] ?? "253px";
+    var dataSaved = ViewData["saved_status"] ?? DataSavingStatus.NONE;
 }
 
 <!DOCTYPE html>
@@ -11,6 +14,8 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/output.css" />
     <link href="~/css/_Layout.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
@@ -35,13 +40,13 @@
                 <div class="absolute z-10 top-[96px] w-full h-screen bg-black bg-opacity-40 left-0 right-0 h-screen nav-content md:block md:static md:w-auto md:h-auto md:bg-transparent">
                     <ul class="navbar-nav bg-[#333136] h-[235px] flex flex-col justify-around px-[24px] py-[24px] md:bg-transparent md:h-auto md:flex-row md:space-x-5">
                         <li class="nav-item">
-                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/About">OUR COMPANY</a>
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px] md:border-b-0 md:hover:border-b-2 md:hover:border-black" asp-area="" asp-page="/About">OUR COMPANY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/Locations">LOCATIONS</a>
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px] md:border-b-0 md:hover:border-b-2 md:hover:border-black" asp-area="" asp-page="/Locations">LOCATIONS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px]" asp-area="" asp-page="/Contact">CONTACT</a>
+                            <a class="text-dark text-[24px] text-white md:text-black md:text-[14px] md:border-b-0 md:hover:border-b-2 md:hover:border-black" asp-area="" asp-page="/Contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +118,6 @@
     @await RenderSectionAsync("Scripts", required: false)
 
     <script>
-
         let navbarToggler = document.querySelector(".navbar-toggler");
         navbarToggler.classList.toggle("collapsed");
         document.querySelector(".nav-content").classList.toggle("hidden");
@@ -122,7 +126,29 @@
             navbarToggler.classList.toggle("collapsed");
             document.querySelector(".nav-content").classList.toggle("hidden");
         }
-
     </script>
+    @if ((DataSavingStatus)dataSaved == DataSavingStatus.SAVED)
+    {
+       <script>
+            Toastify({
+                text: 'Thank you',
+                duration: 3000,
+                gravity: 'top',
+                close: true
+            }).showToast();
+       </script>
+    } 
+    @if ((DataSavingStatus)dataSaved == DataSavingStatus.ERROR)
+    {
+       <script>
+            Toastify({
+                text: 'Ensure all field are filled',
+                duration: 3000,
+                gravity: 'top',
+                close: true
+            }).showToast();
+       </script>
+    }
+
 </body>
 </html>

@@ -10,8 +10,9 @@ public class Customer
     [Required(ErrorMessage = "Can't be empty"), EmailAddress(ErrorMessage = "Can't be empty")]
     public string? Email { get; set; }
 
+    [Required]
     public string? Phone { get; set; }
 
-    [MinLength(20)]
+    [Required, MinLength(3)]
     public string? Message { get; set; }
 }

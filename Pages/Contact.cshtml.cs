@@ -1,5 +1,6 @@
 using Designo.Website.Database;
 using Designo.Website.Models;
+using Designo.Website.Props;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -33,11 +34,13 @@ public class ContactsModel : PageModel
 
         if(ModelState.IsValid)
         {
-
+            ViewData["saved_status"] = DataSavingStatus.SAVED;
             return;
         }
 
-        if(ModelState.ContainsKey("Customer.Email"))
+        ViewData["saved_status"] = DataSavingStatus.ERROR;
+
+        if (ModelState.ContainsKey("Customer.Email"))
         {
            if (ModelState["Customer.Email"]!.ValidationState == ModelValidationState.Invalid)
             {

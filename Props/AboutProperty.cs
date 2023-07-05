@@ -8,3 +8,9 @@ public enum AboutProperty
     ID,
     FLEX_DIRECTION
 }
+
+
+public enum DataSavingStatus
+{
+    NONE, SAVED, ERROR
+}
