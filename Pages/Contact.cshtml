@@ -2,6 +2,7 @@
 @model Designo.Website.Pages.ContactsModel
 @using Designo.Website.Models;
 @{
+    ViewData["Title"] = "Contacts";
     ViewData["footer_absolute_display"] = "hidden";
     ViewData["footer_body_margin"] = "96px";
     var showEmailIcon = ViewData["email_invalid"] ?? false;

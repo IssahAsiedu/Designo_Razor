@@ -79,6 +79,7 @@ public class DataSeeder
                 Id = 1,
                 Name = "WEB",
                 Img = "image-web-design.jpg",
+                SvgBackground = "web-design/desktop/bg-pattern-intro-web.svg",
                 Description = "We build websites that serve as powerful marketing tools and bring memorable brand experiences."
             },
             new DesignCategory
@@ -86,6 +87,7 @@ public class DataSeeder
                 Id = 2,
                 Name = "APP",
                 Img = "image-app-design.jpg",
+                SvgBackground = "app-design/desktop/bg-pattern-intro-app.svg",
                 Description = "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
             },
             new DesignCategory
@@ -93,6 +95,7 @@ public class DataSeeder
                 Id = 3,
                 Name = "GRAPHIC",
                 Img = "image-graphic-design.jpg",
+                SvgBackground = "graphic-design/desktop/bg-pattern-intro-graphic.svg",
                 Description = "We deliver eye-catching branding materials that are tailored to meet your business objectives."
             }
             );

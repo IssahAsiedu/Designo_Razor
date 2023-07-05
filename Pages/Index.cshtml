@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
 <div class="pb-[365px] md:flex md:flex-col md:items-center md:w-[100vw]">
@@ -28,6 +28,7 @@
 
     <!--Category Section-->
     <div class="grid grid-rows-3 gap-4 w-[87%] mx-auto mt-[113px] md:grid-rows-md-3 lg:grid-cols-2 lg:grid-rows-2 lg:h-[640px]">
+
         @for (int i = 0; i < Model.Categories.Count; i++)
         {
 
@@ -49,16 +50,18 @@
             }
 
         }
+
     </div>
 
-    <!--bottom Leaf-->
-    <img class="hidden absolute transform rotate-180 bottom-[-148%] z-[-2] right-0 max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
 
     <!--Core Values Section-->
-    <div class="flex flex-col w-[87%] gap-[72px] mx-auto mt-[104px] lg:flex-row lg:gap-[113px]">
+    <div class="relative flex flex-col w-[87%] gap-[72px] mx-auto mt-[104px] lg:flex-row lg:gap-[113px]">
         @foreach (var coreValue in Model.CoreValues)
         {
             <partial name="_CoreValue" for="@coreValue" />
         }
+
+        <!--bottom Leaf-->
+        <img class="hidden absolute transform rotate-180 top-[125px] z-[-2] right-[-13%] max-w-[1006px] w-full h-[594px] lg:block" src="~/assets/shared/desktop/bg-pattern-leaf.svg">
     </div>
 </div>

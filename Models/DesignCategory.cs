@@ -12,6 +12,8 @@ public class DesignCategory
 
     public string Img { get; set; } = string.Empty;
 
+    public string? SvgBackground { get; set; }
+
     public string Description { get; set; } = string.Empty;
 }
 

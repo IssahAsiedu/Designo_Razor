@@ -1,5 +1,6 @@
 using Designo.Website.Database;
 using Designo.Website.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,12 +21,21 @@ public class DesignModel : PageModel
         this.context = context;
     }
 
-    public async Task OnGet(string name)
+    public async Task<IActionResult> OnGet(string name)
     {
-        Category = await context.DesignCategories.FirstAsync(c => c.Name!.ToLower() == name.ToLower());
+        try
+        {
+            Category = await context.DesignCategories.FirstAsync(c => c.Name!.ToLower() == name.ToLower());
+        } catch(Exception)
+        {
+            return RedirectToPage("./Error");
+        }
+        
 
         Designs = await context.Designs.Where(d => d.DesignCategoryId == Category.Id).ToListAsync();
 
         OtherCategories = await context.DesignCategories.Where(c => c.Name!.ToLower() != name.ToLower()).ToListAsync();
+
+        return Page();
     }
 }

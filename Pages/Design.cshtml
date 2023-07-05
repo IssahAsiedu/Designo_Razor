@@ -1,6 +1,10 @@
 ﻿@page "{name}"
 @model Designo.Website.Pages.DesignModel
 
+@{
+    ViewData["Title"] = Model.Category!.Name! + " Design";
+}
+
 <style>
      #design-hero {
         background-image: url('/assets/shared/desktop/bg-pattern-two-circles.svg');
@@ -9,7 +13,7 @@
         @@media(min-width: 768px) {
 
             #design-hero {
-                background-image: url('/assets/web-design/desktop/bg-pattern-intro-web.svg');
+                background-image: url('/assets/@Model.Category!.SvgBackground');
             }
         }
 
