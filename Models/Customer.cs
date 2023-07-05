@@ -5,6 +5,7 @@ public class Customer
 {
     public int Id { get; set; }
 
+    [Required]
     public string? Name { get; set; }
 
     [Required(ErrorMessage = "Can't be empty"), EmailAddress(ErrorMessage = "Can't be empty")]

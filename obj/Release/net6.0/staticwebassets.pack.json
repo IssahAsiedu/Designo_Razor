@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\desktop\\bg-pattern-hero-about-desktop.svg",
+      "PackagePath": "staticwebassets\\assets\\about\\desktop\\bg-pattern-hero-about-desktop.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\desktop\\image-about-hero.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\desktop\\image-about-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\desktop\\image-real-deal.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\desktop\\image-real-deal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\desktop\\image-world-class-talent.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\desktop\\image-world-class-talent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-location.svg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\bg-location.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\bg-pattern-hero-about-mobile.svg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\bg-pattern-hero-about-mobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\image-about-hero.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\image-about-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\image-real-deal.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\image-real-deal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\mobile\\image-world-class-talent.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\mobile\\image-world-class-talent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\tablet\\image-about-hero.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\tablet\\image-about-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\tablet\\image-real-deal.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\tablet\\image-real-deal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\about\\tablet\\image-world-class-talent.jpg",
+      "PackagePath": "staticwebassets\\assets\\about\\tablet\\image-world-class-talent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\bg-pattern-intro-app.svg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\bg-pattern-intro-app.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\image-airfilter.jpg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\image-airfilter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\image-eyecam.jpg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\image-eyecam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\image-faceit.jpg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\image-faceit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\image-loopstudios.jpg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\image-loopstudios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\app-design\\desktop\\image-todo.jpg",
+      "PackagePath": "staticwebassets\\assets\\app-design\\desktop\\image-todo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\contact\\desktop\\bg-pattern-hero-desktop.svg",
+      "PackagePath": "staticwebassets\\assets\\contact\\desktop\\bg-pattern-hero-desktop.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\contact\\desktop\\icon-error.svg",
+      "PackagePath": "staticwebassets\\assets\\contact\\desktop\\icon-error.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\contact\\mobile\\bg-pattern-hero-contact-mobile.svg",
+      "PackagePath": "staticwebassets\\assets\\contact\\mobile\\bg-pattern-hero-contact-mobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\graphic-design\\desktop\\bg-pattern-intro-graphic.svg",
+      "PackagePath": "staticwebassets\\assets\\graphic-design\\desktop\\bg-pattern-intro-graphic.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\graphic-design\\desktop\\image-boxed-water.jpg",
+      "PackagePath": "staticwebassets\\assets\\graphic-design\\desktop\\image-boxed-water.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\graphic-design\\desktop\\image-change.jpg",
+      "PackagePath": "staticwebassets\\assets\\graphic-design\\desktop\\image-change.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\graphic-design\\desktop\\image-science.jpg",
+      "PackagePath": "staticwebassets\\assets\\graphic-design\\desktop\\image-science.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\bg-pattern-hero-home.svg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\bg-pattern-hero-home.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\illustration-friendly.svg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\illustration-friendly.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\illustration-passionate.svg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\illustration-passionate.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\illustration-resourceful.svg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\illustration-resourceful.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-app-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-app-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-graphic-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-graphic-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-hero-phone-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-hero-phone.png",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-hero-phone.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-web-design-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-web-design-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\desktop\\image-web-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\desktop\\image-web-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\mobile\\image-app-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\mobile\\image-app-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\mobile\\image-graphic-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\mobile\\image-graphic-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\mobile\\image-web-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\mobile\\image-web-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\tablet\\image-app-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\tablet\\image-app-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\tablet\\image-graphic-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\tablet\\image-graphic-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\home\\tablet\\image-web-design.jpg",
+      "PackagePath": "staticwebassets\\assets\\home\\tablet\\image-web-design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\desktop\\image-map-australia.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\desktop\\image-map-australia.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\desktop\\image-map-canada.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\desktop\\image-map-canada.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\desktop\\image-map-uk.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\desktop\\image-map-uk.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\tablet\\image-map-australia.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\tablet\\image-map-australia.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\tablet\\image-map-canada.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\tablet\\image-map-canada.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\locations\\tablet\\image-map-uk.png",
+      "PackagePath": "staticwebassets\\assets\\locations\\tablet\\image-map-uk.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\bg-pattern-call-to-action.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-call-to-action.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\bg-pattern-leaf.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-leaf.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\bg-pattern-small-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-small-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\bg-pattern-three-circles.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-three-circles.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\bg-pattern-two-circles.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\bg-pattern-two-circles.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\caution-svg.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\caution-svg.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-instagram.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-pinterest.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-right-arrow.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-right-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\icon-youtube.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\icon-youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\illustration-australia.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\illustration-australia.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\illustration-canada.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\illustration-canada.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\illustration-united-kingdom.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\illustration-united-kingdom.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\desktop\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\shared\\desktop\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\mobile\\bg-pattern-design-pages-intro-mobile.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\mobile\\bg-pattern-design-pages-intro-mobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\mobile\\icon-close.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\mobile\\icon-close.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\mobile\\icon-hamburger.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\mobile\\icon-hamburger.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\shared\\tablet\\bg-pattern-design-pages-intro-tablet.svg",
+      "PackagePath": "staticwebassets\\assets\\shared\\tablet\\bg-pattern-design-pages-intro-tablet.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\bg-pattern-intro-web.svg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\bg-pattern-intro-web.svg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-blogr.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-blogr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-builder.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-builder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-camp.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-camp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-express.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-express.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-photon.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-photon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\assets\\web-design\\desktop\\image-transfer.jpg",
+      "PackagePath": "staticwebassets\\assets\\web-design\\desktop\\image-transfer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\css\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\_Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Designo.Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Designo.Website.props",
+      "PackagePath": "build\\Designo.Website.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Designo.Website.props",
+      "PackagePath": "buildMultiTargeting\\Designo.Website.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Designo.Website.props",
+      "PackagePath": "buildTransitive\\Designo.Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
