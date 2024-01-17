@@ -6,7 +6,3 @@ This is the designo website from [Front end Mentor](https://www.frontendmentor.i
 ### Tech Stack
 - Tailwind
 - C# Razor Pages
-
-
-### Preview
-<iframe src="https://haedes.bsite.net" style="width: 200px; height: 200px;"></iframe>
