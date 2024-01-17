@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5czI8gEB071dz5i5ILIj1gFDMJI4GEli/k0gLWEwYiYUTvIhEq4gD0kcG1wo225cF2WqKKiaLLTGFm5Ebg5V5Q==",
+  "dgSpecHash": "WFlvTcc3sJ9fAtS6NX+zedL61XXbr9OpdJFz08rNu4SsysWfWHhCDs68+Xxpelg2vMK/epa6Gwzaq58Ls1ZCtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IssahAsiedu\\Desktop\\project\\Designo.Website\\Designo.Website.csproj",
+  "projectFilePath": "C:\\Users\\IssahAsiedu\\RiderProjects\\Designo_Razor\\Designo.Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IssahAsiedu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
@@ -26,7 +26,11 @@
     "C:\\Users\\IssahAsiedu\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\IssahAsiedu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\IssahAsiedu\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }
